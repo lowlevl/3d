@@ -12,5 +12,3 @@ do
 	echo "> Hooking '${target}' to '${link}' before building"
 	ln --force --symbolic "${target}" "${link}"
 done
-
-exec make -C "./Marlin" $@
