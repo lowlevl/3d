@@ -6,7 +6,7 @@ La documentation concernent la machine et son paramétrage se situe à https://g
 
 - Pas de filament fibre de carbonne (ça flinguerait la buse, c'est abrasif)
 - Système **24v** pour la Hotend et le Bed
-- Une carte Arduino Mega 2560 avec un hat RAMPS 1.6 (BigTreeTech)
+- Une carte Arduino Mega 2560 avec un hat [RAMPS 1.6 (BigTreeTech)](https://reprap.org/wiki/RAMPS_1.6)
 - Les drivers de moteurs pas a pas sont des TMC2130 (de BigTreeTech aussi) et communiquent en SPI avec le microcontroleur pour la configuration, le diagnostic et le _sensorless homing_ (axes X, Y)
 - Une buse _E3D v6 All-Metal hotend_ avec un extrudeur _E3D Titan_ en bowden (deporte)
 - Les SSR ont ete remplaces par du Hescher, les anciens etants de qualite douteuse
@@ -25,4 +25,3 @@ La documentation concernent la machine et son paramétrage se situe à https://g
 - [x] Bouger l'auto home au centre ?
 - [ ] Faire un tuto de calibration
 - [?] Imprimer des grenouilles, des champignons, des escargots, des heros de la revolution russe
-
